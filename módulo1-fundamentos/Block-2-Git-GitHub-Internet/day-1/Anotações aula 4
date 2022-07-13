@@ -1,0 +1,18 @@
+
+
+
+git push /Enviará de fato essas alterações.
+
+git commit /O git commit está “empacotando” as alterações que o comando git add preparou para serem enviadas.
+
+git add /Vai preparar as alterações que você fez para serem enviadas, mas aqui, elas ainda não foram enviadas.
+
+
+git checkout -b nome-da-brench 
+Criando nova branch e já mudar pra ela
+
+git fetch trás as informações da branch do local remoto
+git checkout 
+git push
+git pull
+
