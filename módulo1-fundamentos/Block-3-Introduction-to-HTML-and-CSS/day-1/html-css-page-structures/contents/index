@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML</title>
+    </head>
+
+    <body>
+        <h1>Exercícios</h1><br>
+        <h1>Pessoas que já fiz amizade na Trybe</h1>
+        <h1><ul>Antônio Alencar</ul></h1>
+        <h1><ul>Eduardo Maurício</ul></h1>
+        <h1><ul>LiliB2</ul></h1>
+        <h1><ul>Marcella Capuzzo</ul></h1>
+        <h1><ul>Rafael Aguiar</ul></h1>
+
+        <img src="https://www.integracaodaserra.com.br/ifood-oferecera-ajuda-de-custo-para-estudantes-da-trybe/" alt="Trybe" width="100px">
+        <img src="/Trybe/trybe-exercises/módulo1-fundamentos/Block-3-Introduction-to-HTML-and-CSS/day
+        -1/html-css-page-structures/images.png" alt="Trybe" width="100px">
+
+    
+    </body>
+</html>
