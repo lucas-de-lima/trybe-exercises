@@ -1,0 +1,81 @@
+
+
+
+HTML > H hyper - T text - M markup - L language
+
+HTML é uma linguagem de marcação de texto. Não é uma linguagem de programação.
+
+Você pode pensar no HTML como se fosse o esqueleto da sua página. É através do HTML que você irá criar a estrutura de como a página vai ser exibida, definindo quais tags servirão para títulos, subtítulos, parágrafos, e outros conteúdos ricos como links, imagens, vídeos etc.
+
+<head> contém as configurações da pagina
+
+      <meta charset = conjunto de caracteres quea apagina vai usar (UTF-8 para pt-br)>
+      <title> contém o titulo da página </title>
+</head>
+
+<body> é o corpo da página, dentro dele vem as tag que ficaram fisiveis na página
+      
+       <h1> título também </h1>
+       <h2> como se fosse um sub-titulo </h3>
+       <h1/h2/h3/h4/h5/h6 são os reads da página, criam seções dentro da página>
+
+       <p> é um páragrafo (aqui vai um conteudo) </p>
+       
+       <br> serve para quebrar a linha, não precisa de fechamento pois não tem conteudo dentro (vai no final da página(aparentemente...))
+        
+       <strong> coloca um texto em negrito </strong>
+       <em> deixa o texto parecido com itálico (mas não é italico) </em>
+
+ Para criar listas, duas tags, uma para os itens da lista e outra para a estrutura da lista 
+
+       Para estruturas = <ul> & <ol> Para item da lista = <li>
+                         <ul> coloca a lista com um ponto </ul>
+                         <ol> coloca a lista em numeros </ol>
+
+Tags image: (tembém precisa informar a imagem a ser exibida, com o atributo src, para dizer o caminho da imagem) essa tag não precisa de fechamento (</img>)
+
+        <img src=""
+        
+A imagem ficara em seu tamanho original, para redimencionar a imagem na pagina usamos width m(básicamente ele dá largura para uma tag. Nem toda tag aceita width)
+       
+        <img src="caminho-da-imagem" width="300px"> (px são pixels)
+
+        alt="serve para descrever a imagem, literalmente um comentario sobre o que é a imagem"
+        (O alt vem antes do width="")
+       
+
+</body>
+
+______________________________________________________
+
+
+
+
+HTML - Links externos e internos
+
+tag
+        <a> </a> Essa tag constroi um hiperlink tanto para links externos e internos.
+
+          propriedades para a tag: href="link para qual a tag ira redirecionar quando clicada"
+                                 target="_blank" abre em uma nova guia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

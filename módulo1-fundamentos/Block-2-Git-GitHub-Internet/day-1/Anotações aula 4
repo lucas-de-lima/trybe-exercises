@@ -9,10 +9,10 @@ git add /Vai preparar as alterações que você fez para serem enviadas, mas aqu
 
 
 git checkout -b nome-da-brench 
-Criando nova branch e já mudar pra ela
+Criando nova branch e já mudar pra ela (git checkout -b, cria uma nova branch)
 
 git fetch trás as informações da branch do local remoto
 git checkout 
-git push
-git pull
+git push serve para enviar a nova branch para o local remoto (gera um pull request)
+git pull para sincronizar seu local com o local remoto (usar -u depois do push 'push -u' para a função '--set-upstream = -u' para configurar o local remoto.
 
