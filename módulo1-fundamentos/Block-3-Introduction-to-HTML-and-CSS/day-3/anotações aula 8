@@ -1,0 +1,29 @@
+
+
+link:css = cria um link rápido com o arquivo css
+
+div#nome-do-id = cria uma div com id de forma rápida
+
+padding = pesquisar depois 
+
+wdth = largura
+
+margin = margem
+
+text-align: = alinha o texto (center, ou outros)
+
+* = no css significa que aplicara a mudança a todos os elementos. (all)
+
+dá direita pra esqueda sabemos até onde vão as modificação atribuidas a outras tags quando usado uma modificação já existente no css e atribuimos essa modificação em outras tags
+
+na verdade ele modifica as tags dentro do id (pai) (ou class) se dentro do id tem <p> ou outras tags, escrever o #nome-do-id somado a tag (por exemplo <p>) ele faz a modificação exclusivamente ao <p> e não no #nome-do-id todo o modificando completamente. E assim conseguentemente, se dentro do <p> existe um <h1> deve-se colocar #nome-do-id p h1 sem os '< >' e de assim em diante até você modificar o que quer.
+
+display inline-block = desbloqueia a limitação da linha ( para por itens lado a lado)
+
+
+
+
+
+
+
+
