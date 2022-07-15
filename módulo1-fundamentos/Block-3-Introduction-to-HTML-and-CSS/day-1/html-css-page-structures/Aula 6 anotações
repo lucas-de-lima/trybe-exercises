@@ -56,8 +56,16 @@ HTML - Links externos e internos
 tag
         <a> </a> Essa tag constroi um hiperlink tanto para links externos e internos.
 
-          propriedades para a tag: href="link para qual a tag ira redirecionar quando clicada"
-                                 target="_blank" abre em uma nova guia
+          propriedades para a tag: href="link para qual a tag ira redirecionar quando clicada"> (não esqueça do >) no final do href"")
+
+target="" 
+
+NÃO ESQUEÇA DE REMOVER O > depois de abrir o <a> pois ele não reconhce o href=""
+
+ERRADO <a> href=""
+CORRETO <a href=""
+
+target="_blank" abre em uma nova guia
 
 
 
