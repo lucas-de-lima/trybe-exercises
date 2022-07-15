@@ -1,0 +1,44 @@
+
+
+ CSS
+
+-google fontes- para encontrar fontes para a pagina (é necessário criar um link no CSS)
+
+< class="" cria uma classe para depois estiliza-la especificamente, e alterar todas as tags que recebam a classe. É necessário usar .nome-da-classe no <style> </style> não pode esquecer do ponto '.' 
+
+# é um ID, como > #isso-é-um-ID ele especifica uma tag, e ela(a tag) é conectada ao ID.
+
+padding: px; acressenta preenchimento de acordo com o pixel (px) definido. Seperar o px por espaço acrescente no primeiro px vertical e o segundo px orizontal. Quatro vezes px=(cima, direita, baixo, esquerda) nessa ordem.
+
+text-decoration: none; remove a decoração do texto inclusive do link
+border-radius: px; arredonda as bordas na medida do pixel(px)
+
+font-family: qual a fonte que sera usada na página (se usar em <p> dentro de <style> irá alterar o paragrafo. Pode ser adicionadas fontes reservas.
+
+font-size: px; aumenta o tamanho da fonte
+
+font-size: em; aumenta o tamanho da fonte baseado no tamanho do body. (body=20px >> em2 = 40px)
+
+font-weight: bold; coloca o texto em negrito
+font-style: italic; coloca o texto em italico
+line-height: 40px; coloca um espaçamento entre as linhas
+text-align: center; centraliza o texto (provavelmente pode colocar em outras posições se escrever outra coisa no lugar de 'center')
+text-decoration: underline; coloca uma linha debaixo do texto (underline)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
