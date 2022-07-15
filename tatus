@@ -1,0 +1,77 @@
+[33mcommit 9075e817ab58d6010a5f8a8de200272dd24626e5[m[33m ([m[1;36mHEAD -> [m[1;32mexercises-3.2[m[33m, [m[1;31morigin/exercises-3.2[m[33m)[m
+Author: Lucas-De-Lima <lucasramosdelima@gmail.com>
+Date:   Thu Jul 14 16:06:45 2022 -0300
+
+    Atualizando notas, readmes, pastas, e arquivos
+
+[33mcommit be76920cee10a8e64a11a75c401ea3bcafd402db[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: 8465c8c 5667721
+Author: Lucas De Lima <108958270+Lucas-De-Lima@users.noreply.github.com>
+Date:   Thu Jul 14 09:23:37 2022 -0300
+
+    Merge pull request #4 from Lucas-De-Lima/exercises-3.1
+    
+    criando pasta para exercicios dia 1 bloco 3
+
+[33mcommit 566772198c2b941aca70e10d1dc274a701f1b033[m[33m ([m[1;31morigin/exercises-3.1[m[33m, [m[1;32mexercises-3.1[m[33m)[m
+Author: Lucas-De-Lima <lucasramosdelima@gmail.com>
+Date:   Thu Jul 14 09:15:23 2022 -0300
+
+    criando pasta para exercicios dia 1 bloco 3
+
+[33mcommit 8465c8cab9289bdf6d668fe685536e71247b81d0[m
+Merge: 30782dd 85227fa
+Author: Lucas De Lima <108958270+Lucas-De-Lima@users.noreply.github.com>
+Date:   Wed Jul 13 19:43:30 2022 -0300
+
+    Merge pull request #3 from Lucas-De-Lima/att
+    
+    att
+
+[33mcommit 85227fa7ff945582fd500265413131854855b5e1[m[33m ([m[1;31morigin/att[m[33m, [m[1;32matt[m[33m)[m
+Author: Lucas-De-Lima <lucasramosdelima@gmail.com>
+Date:   Wed Jul 13 19:41:26 2022 -0300
+
+    att
+
+[33mcommit 30782dda35e6c50c1470d154bd78c8fb9348ec89[m
+Author: Lucas De Lima <108958270+Lucas-De-Lima@users.noreply.github.com>
+Date:   Wed Jul 13 19:04:01 2022 -0300
+
+    Delete módulo1-fundamentos/block-3 directory
+
+[33mcommit d161cde976c91365fbc7e040bbc42440031b641c[m
+Merge: 36c4cc7 16134c9
+Author: Lucas De Lima <108958270+Lucas-De-Lima@users.noreply.github.com>
+Date:   Wed Jul 13 19:03:01 2022 -0300
+
+    Merge pull request #2 from Lucas-De-Lima/readme-att
+    
+    atualizando readme
+
+[33mcommit 16134c9106255faed4cdd4fb73d378b36cc41131[m[33m ([m[1;31morigin/readme-att[m[33m, [m[1;31morigin/readme[m[33m, [m[1;32mreadme-att[m[33m, [m[1;32mreadme[m[33m)[m
+Author: Lucas-De-Lima <lucasramosdelima@gmail.com>
+Date:   Wed Jul 13 17:06:16 2022 -0300
+
+    atualizando readme
+
+[33mcommit 36c4cc773816593013efda0ed3bec80722e197ab[m
+Merge: a38a072 e765ca3
+Author: Lucas De Lima <108958270+Lucas-De-Lima@users.noreply.github.com>
+Date:   Wed Jul 13 16:59:41 2022 -0300
+
+    Merge pull request #1 from Lucas-De-Lima/readme
+    
+    criando README
+
+[33mcommit e765ca3770fc4d58041176e1d0c58dd74887d921[m
+Author: Lucas-De-Lima <lucasramosdelima@gmail.com>
+Date:   Wed Jul 13 16:56:23 2022 -0300
+
+    criando README
+
+[33mcommit a38a0727db0c5f635a46420f325b1c6a02a41c49[m[33m ([m[1;31morigin/criando-pasta-bloco3[m[33m, [m[1;31morigin/atualizando-readme[m[33m, [m[1;32mcriando-pasta-bloco3[m[33m)[m
+Author: Lucas-De-Lima <lucasramosdelima@gmail.com>
+Date:   Mon Jul 11 16:22:12 2022 -0300
+
+    Initial comiit

@@ -1,0 +1,32 @@
+h1 {
+    text-decoration: underline;
+    size: 65px;
+    color: blue;
+    font-family: sans-serif;
+  }
+  p {
+    font-weight: 600;
+    font-size: em3;
+    color: blue;
+  }
+
+  ul {
+      background-color: aqua;
+  }
+  
+  li{
+    font-weight: bold;
+    font-style: italic;
+    line-height: 40px;
+    text-align: center;
+    
+  }
+
+  .bg-color {
+      color: blue;
+  }
+
+  body {
+    font-size: 16px;
+    color: blue;
+  }
