@@ -1,15 +1,16 @@
 
 
 
-git push /Enviará de fato essas alterações.
-
-git commit /O git commit está “empacotando” as alterações que o comando git add preparou para serem enviadas.
+git checkout -b nome-da-brench 
+Criando nova branch e já mudar pra ela (git checkout -b, cria uma nova branch)
 
 git add /Vai preparar as alterações que você fez para serem enviadas, mas aqui, elas ainda não foram enviadas.
 
 
-git checkout -b nome-da-brench 
-Criando nova branch e já mudar pra ela (git checkout -b, cria uma nova branch)
+git commit /O git commit está “empacotando” as alterações que o comando git add preparou para serem enviadas.
+
+git push /Enviará de fato essas alterações.
+
 
 git fetch trás as informações da branch do local remoto
 git checkout 
