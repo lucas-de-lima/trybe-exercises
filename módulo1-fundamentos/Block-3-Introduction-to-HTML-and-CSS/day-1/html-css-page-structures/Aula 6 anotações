@@ -7,9 +7,9 @@ HTML é uma linguagem de marcação de texto. Não é uma linguagem de programa�
 
 Você pode pensar no HTML como se fosse o esqueleto da sua página. É através do HTML que você irá criar a estrutura de como a página vai ser exibida, definindo quais tags servirão para títulos, subtítulos, parágrafos, e outros conteúdos ricos como links, imagens, vídeos etc.
 
-<head> contém as configurações da pagina
+<head> contém as configurações da página
 
-      <meta charset = conjunto de caracteres quea apagina vai usar (UTF-8 para pt-br)>
+      <meta charset = conjunto de caracteres que a apagina vai usar (UTF-8 para pt-br)>
       <title> contém o titulo da página </title>
 </head>
 
@@ -28,7 +28,8 @@ Você pode pensar no HTML como se fosse o esqueleto da sua página. É através 
 
  Para criar listas, duas tags, uma para os itens da lista e outra para a estrutura da lista 
 
-       Para estruturas = <ul> & <ol> Para item da lista = <li>
+       Para estruturas = <ul> & <ol> 
+       Para item da lista = <li>
                          <ul> coloca a lista com um ponto </ul>
                          <ol> coloca a lista em numeros </ol>
 

@@ -1,0 +1,12 @@
+
+   JavaScript
+
+CTRL+/ coloca o texto selecionado em modo de leitura (pode usar também //)
+
+shift+alt+'seta pra baixo' copia o texto selecionado logo a baixo
+
+ = é uma atribuição
+ == é uma comparação (compara apenas o valor)
+ === é uma comparação estrita (compara valor E tipo de dado) (se é idêntico)
+
+
