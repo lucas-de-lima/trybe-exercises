@@ -9,4 +9,14 @@ shift+alt+'seta pra baixo' copia o texto selecionado logo a baixo
  == é uma comparação (compara apenas o valor)
  === é uma comparação estrita (compara valor E tipo de dado) (se é idêntico)
 
++ soma
+- subtração
+* multiplicação
+/ divisão
+** exponenciação
+
+let variavel = 1;
+
+variavel++; aumenta em 1 o valor da variavel
+variavel--; decrementa em 1 o valor da variavel
 
