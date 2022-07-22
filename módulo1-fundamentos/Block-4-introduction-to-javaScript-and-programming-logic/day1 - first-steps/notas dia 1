@@ -20,3 +20,5 @@ let variavel = 1;
 variavel++; aumenta em 1 o valor da variavel
 variavel--; decrementa em 1 o valor da variavel
 
+
+
