@@ -4,7 +4,7 @@ link:css = cria um link rápido com o arquivo css
 
 div#nome-do-id = cria uma div com id de forma rápida
 
-padding = pesquisar depois 
+padding = usado para criar preenchimento dentro de qualquer borda definida 
 
 wdth = largura
 
