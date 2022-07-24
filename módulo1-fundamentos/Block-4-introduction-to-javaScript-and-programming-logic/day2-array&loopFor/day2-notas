@@ -4,17 +4,45 @@ array (ou variavél composta)
 
 array é uma variavél com varios valores separados por virgula(,) e dentro de     ''(aspas) é preciso  colocar esses valores em colchetes
 
- let valores = ['valor0', 'valor1', 'valor2', 'valor3'] a contagem começa do zero 0
+ let valores = ['valor0', 'valor1', 'valor2', 'valor3'] 
+
+cada valor recebe uma indicação, ou seja, um índice que pode ser chamado de chave a contagem começa do zero 0
+uma das grandes vantagens dos arrays é o armazenamento de várias informações em uma mesma estrutura. 
+Sempre que precisar armazenar várias informações, o Array é uma boa alternativa e será uma ferramenta muito útil.
 
 
 push usar .push('novoValor') EMPURRA um novo valor para dentro do array, primeiro coloque a variavel e em seguida o comando .push valores.push('valor4');
+
+Repare que o método .push() adiciona um novo item no final do array. Se precisarmos adicionar no início, podemos usar o .unshift(). Teste em seu console e veja o resultado.
+
+
+tasksList.pop();  // remove a última tarefa
+
+O método .pop() nos permite remover o último item do array. Agora, se precisarmos remover o primeiro item da lista, podemos usar o .shift(). Faça em seu console e veja o resultado.
+Outra importante ferramenta é o indexOf(), usado para procurar o índice de um item no Array
+
+let tasksList = ['Tomar café', 'Reunião', 'Brincar com o cachorro'];
+
+let indexOfTask = tasksList.indexOf('Reunião');
+console.log(indexOfTask);
+
+// 1
+
+
+
 
 .length mostra o tamanho do array, quantas posições (quantos elementos á dentro do array) para isso use a variavel seguido de .length console.log(valores.length);
 
 provavelmente será necessário usar o conle.log
 
 
+
+
+
 .sort coloca todos os valores do array em ordem, incluindo ordem numerica. Usa-se a variavel seguida de .sort console.log(valores.sort());
+
+
+
 
 
 [] é posivel buscar valores dentro de um array usando [] console.log(valores[0]);
@@ -28,6 +56,7 @@ for (let index;         index < 6;       index+= 1) {
 
 index representa a posição [0, 1, 2, 3, 4, 5] sempre começa do zero 0
 
+O fato curioso é que a primeira posição do array é representada pelo número 0. Desse modo, para acessarmos o último elemento da estrutura, devemos pegar a quantidade de seus elementos utilizando o .length e subtrair 1.
 
 
 for/of 
