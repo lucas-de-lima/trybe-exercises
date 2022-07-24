@@ -9,6 +9,9 @@ shift+alt+'seta pra baixo' copia o texto selecionado logo a baixo
  == é uma comparação (compara apenas o valor)
  === é uma comparação estrita (compara valor E tipo de dado) (se é idêntico)
 
+operadores aritméticos (+, -, *, /, %)
+e operadores lógicos (>, <, &&, ||)
+
 + soma
 - subtração
 * multiplicação
@@ -19,6 +22,147 @@ let variavel = 1;
 
 variavel++; aumenta em 1 o valor da variavel
 variavel--; decrementa em 1 o valor da variavel
+
+
+let movie = "avangers"; //string literal 
+tudo que é uma string é uma seguencia de caracteres, números, letras e caracteres especiais (isso se chama de string literal)
+
+let score = 10; //number literal
+é quando é atribuido um valor inteiro para a variavel (dentro do javaScript é pocivel usar numeros quebrados tambem, como 10.89; ele vai aceitar da mesma forma como sendo um tipo number
+
+let isValid = true; //boleano ou boolean 
+são valores que podem ser 1 ou 0 ou verdadeiro ou falso(true, false)
+
+
+let name; // undefined
+é uma variavel indefinida, que não tem valor definido em sua declaração
+
+
+let color = null //redefinição
+a variavel começa com um valor nulo, e aguarda sua redefinição
+
+
+     O JavaScrip interpreta como string tudo que estiver entre aspas ''  ""
+
+
+
+   Na linguagem JavaScript, temos três principais operadores lógicos:
+
+    && "AND"    || "OR"    ! "NOT"
+
+
+  && AND - Esse operador é binário. O que significa que ele precisa de dois elementos para funcionar corretamente. Esse é exatamente o papel do &&. Ele só vai retornar true se as duas operações que estão em volta dele forem consideradas verdadeiras.
+
+
+
+  || OR - Com o operador OR (ou ||, no JavaScript), precisamos apenas que uma das condições sejam verdadeiras: isso ou aquilo.Precisamos de dois elementos em torno dele para que funcione corretamente. E para que seu retorno seja verdadeiro, um de seus valores deve ser true ou ser considerado truthy.
+
+
+ 
+  ! NOT -   console.log((2 + 2) === 4);
+
+             Isso aqui deve nos retornar true, não é? Afinal, 2 + 2 resultar em 4 é uma declaração verdadeira. Agora, se adicionarmos o operador NOT antes dessa declaração?
+
+            console.log(!(2 + 2) === 4);
+
+            Estamos diante de um operador muito poderoso. Ele pode inverter o valor booleano de um elemento. Isso mesmo!! Se tivermos uma variável ou valor considerado true, podemos gerar o resultado oposto simplesmente fazendo !variável. Ou seja, false.
+Então, sabendo que o resultado original da operação ali em cima é true, quando a gente insere o operador NOT antes da operação, teremos o valor contrário a nossa resposta final, que é false.
+Vale lembrar que o conceito de truthy e falsy também se aplica aqui, por isso não estamos limitados apenas aos tipos primitivos booleanos. Podemos usar em:
+
+Strings...
+
+            const squirtle = "melhor pokemon inicial";
+
+             console.log(!squirtle); // false
+
+Números...
+
+              console.log(!42); // false
+
+             console.log(!0); // true
+             // O número 0 tem o valor "falsy" no javascript. Logo, seu oposto é true.
+
+
+Valores nulos...
+
+               console.log(!null); // true
+
+Valores indefinidos..
+
+            console.log(!undefined); // true
+            ...e em muitos outros elementos. As possibilidades são enormes!!!
+
+
+
+        switch/case
+
+
+// Nesse exemplo o "switch/case" deverá imprimir no terminal a classificação de quais filmes podem ser assistidos
+// de acordo com a faixa etária de uma pessoa.
+
+let faixaEtaria = 'adulto';
+
+switch (faixaEtaria) {
+  case 'adolescente':
+    // Caso a variável seja "adolescente" então entraremos na lógica abaixo.
+
+    console.log('Consulte a classificação do filme');
+    // Quando a pessoa for adolescente essa será a mensagem impressa no console.
+
+    break;
+    
+    // O "break" serve para que o código não continue rodando caso seu resultado já tenha sido atingido
+  case 'adulto':
+    // Após implementar a lógica de um case, você pode abrir outro case.
+    // Agora vamos fazer a lógica do que deve ocorrer se a pessoa for adulta
+
+    console.log('A pessoa adulta é classificada para assistir qualquer filme')
+    //caso seja adulto essa mensagem deverá aparecer no terminal
+
+    break;
+    // Interrompemos o fluxo novamente caso a pessoa seja adulta
+    case 'idoso':
+      // Repetimos o mesmo processo para o case "idoso"
+      console.log('A pessoa idosa é classificada para assistir qualquer filme');
+      break
+  default:
+    // O "default" é utilizado como um retorno padrão caso o valor passado não encaixe em nenhum dos cases
+    // Ou seja, se a pessoa, for criança, recém nascida, ou pertencente à qualquer outra faixa etária, essa será a lógica implementada.
+    console.log('só pode assistir filmes livres');
+    // note que não é necessário utilizar o break após o default. Como todo o código já foi executado, não precisamos interromper o funcionamento do mesmo.
+
+Algo muito legal, é que você pode utilizar o switch case para diversas coisas, não só para imprimir um valor no terminal. 
+
+Se vários cases implementam a mesma lógica, basta escrever um abaixo do outro e então escrever a lógica.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
