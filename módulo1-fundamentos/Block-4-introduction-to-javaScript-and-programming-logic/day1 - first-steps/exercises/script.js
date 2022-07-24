@@ -61,23 +61,26 @@ if (paran == (25)){
 // Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. 
 // Se algum ângulo for inválido o programa deve retornar uma mensagem de erro.
 
-let lado1 = 50;
+let lado1 = 0;
 let lado2 = 60;
 let lado3 = 70;
+let soma = (lado1 + lado2 + lado3);
 
-// switch (lado1, lado2, lado3){
-//     case ((lado1, + lado2, + lado3) = 180):
-//         console.log(true);
-//     case (lado1 || lado2 || lado3 != Number):
-//         console.log('todos os angulos devem ser um número');
+// switch (soma){
+//     case (soma == 180):
+//         console.log('A soma dos angulos é 180');
+//     case (soma !== 180):
+//         console.log('A soma dos angulos não é 180');
+//         default: ('Todos os lados devem ser números válidos');
 // }
 
 // preciso voltar nesse código
 
-if ((lado1 + lado2 + lado3) = 180){
+if (soma = 180){
     console.log(true);
-}else{
+}else if (soma < 180 || soma > 180) {
     console.log(false)
+} else {
+    console.log('Os angulos devem ser números válidos')
 }
-
 
