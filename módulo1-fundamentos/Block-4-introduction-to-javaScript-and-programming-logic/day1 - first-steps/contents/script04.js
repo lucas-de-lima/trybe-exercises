@@ -1,8 +1,8 @@
 const currentHour = 22;
 let message;
 
-if (currentHour  >= '22'); {
-    console.log('Não deveríamos comer NamedNodeMap, é hora de dormir');
+if (currentHour  >= '22') {
+    console.log('Não deveríamos comer nada, é hora de dormir');
 
 }else if (currentHour >= '18' && currentHour < '22') {
    
