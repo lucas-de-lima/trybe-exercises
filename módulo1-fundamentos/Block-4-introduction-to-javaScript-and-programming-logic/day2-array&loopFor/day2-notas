@@ -93,6 +93,7 @@ for (let sum of arrOfNumbers) {
 // 21
 // 31
 
+É importante ressaltar que o for/of não irá alterar o array, e sim trazer os valores de dentro, e no caso, adicionando 1 à soma.
 
 
 
