@@ -1,4 +1,3 @@
-
 const currentHour = 22;
 let message;
 
@@ -20,6 +19,4 @@ console.log('Hora do almoço!');
 
 }
 //esse código não funciona como deve
-=======
-let cavalo = 'movimento em L'
 

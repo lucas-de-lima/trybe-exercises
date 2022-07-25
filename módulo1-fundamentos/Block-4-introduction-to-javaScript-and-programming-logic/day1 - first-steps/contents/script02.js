@@ -3,4 +3,6 @@ let height = 8;
 
 const area = base*height;
 
-const perimeter = area+area;
+const perimeter = base+height+area;
+
+console.log(perimeter);
