@@ -61,12 +61,38 @@ O fato curioso é que a primeira posição do array é representada pelo número
 
 for/of 
 
-for usado com of é uma forma de laço for. Dessa forma é um metodo mais simples de escrever o código, porém se é necessário passar pelo laço e alterar algum valor, o ideal é usar o for convencional. O for of sobe a contagem apenas em +1 e é mais indicado apenas para saber apenas os valores do array, mas não é possivél alterar os valores a partir dele. O for of se repete até o final do array.
+for usado com of é uma forma de laço for. Dessa forma é um metodo mais simples de escrever o código, porém se é necessário passar pelo laço e alterar algum valor, o ideal é usar o for convencional. O for of sobe a contagem apenas em +1 e é mais indicado apenas para saber os valores do array, mas não é possivél alterar os valores a partir dele. O for of se repete até o final do array.
 
 
      for (let array of myArray){
      console.log
    }
+
+let numeros = [1,2,3,4,5];                   let word = 'Hello';
+for(let numero of numeros) {                 for (let letter of word) {
+  console.log(numero);                       console.log(letter);
+}                                            }
+// resultado:                                // resultado:
+//1                                          // "H"
+//2                                          // "e"
+//3                                          // "l"
+//4                                          // "l"
+//5                                          // "o"
+
+
+
+Por fim, com o for/of, nós conseguimos somar um valor a cada elemento do array e retorná-los da seguinte forma:
+
+
+let arrOfNumbers = [10, 20, 30];
+for (let sum of arrOfNumbers) {
+  sum += 1;
+  console.log(sum);
+}
+// 11
+// 21
+// 31
+
 
 
 
