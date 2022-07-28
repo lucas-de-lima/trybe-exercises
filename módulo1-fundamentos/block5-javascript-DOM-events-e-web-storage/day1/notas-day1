@@ -47,7 +47,7 @@ Dessa forma não:
 
 
 
-
+        .style.backgroudColor = 'cor ou rgb aqui' // usar isso altera a cor de fundo do elemento chamado.
 
 
 
