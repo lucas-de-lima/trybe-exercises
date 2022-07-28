@@ -2,4 +2,68 @@
                       O DOM (Document Object Model)
 
 
+   através do objeto 'document' é quem vai dar acesso ao DOM
+
+    .inner.HTML retorno todo o texto inclusivo o texto de outras tags
+    .inner.Text retona somente o conteúdo e ignora as tags
+    .style retona todos os estilos aplicados na tag (o css)
+
+    .innerText = "escreva algo aqui"; fazer isso altera o texto original definido no HTML pelo novo texto atribuido pelo .inneText =""; (apagar esse valor do scrip faz com que ele retone ao original)
+
+
+    
+
+
+    document.getElementById - captura elementos pelo ID
+
+
+
+    document.getElementsByClassName - captura elementos pelo .class (é Elements com o s no final, no plural por se tratar de vários elementos a serem lidos). 
+
+    ALÉM DO MAIS esse elemento é sempre tratado em forma de lista. Para buscar um valor especifico na lista (mesmo que vc já saiba que exista apenas 1 valor) é precisar usar o modelo de array [] colocando o numero dentro de [] colchetes referente a posição do array que você quer buscar. (A lista dita é a HTMLCollection)
+
+    
+
+    document.getElementsByTagName - captura elementos pela tag ou seja, ele retorna os elementos da tag que você especificou. É preciso usar 'Elements' com s no final, pois também está no plural. É retornado como uma lista de elementos e nunca como apenas 1 elemento. Ele pode até retornar um unico elemento, mas sempre em formato de lista e não de um elemento individual. (A lista dita é a HTMLCollection)
+    Para alterar de fato o elemento usando innerText é preciso declrar a posição do array na lista: por exemplo: dessa forma funciona
+    document.getElementTagName("span")[0].innerText = "novo valor"; 
+Dessa forma não:
+    document.getElementTagName("span").innerText = "novo valor"
+
+
+
+                document.querySelector retorna apenas 1 elemento e o primeiro elemento que for encontrado a partir da chamada dessa função. O seletor de CSS é passado para essa função. para Class .class(ponto antes) para ID #id(hastag antes)
+                Se for usado uma tag como "p" (<p>) ele retona a primeira tag e apenas ela especificamente, que é o primeiro elemento.
+                para buscar uma tag especifica no corpo do HTML é preciso especificar onde a função querySelector ira buscar. Para isso é preciso especificar a tag pai e a tag filha. Por exemplo: Quero buscar a tag <p> dentro de uma tag <div> para isso preciso especificar a class em <div class"tag-pai"> escrevendo então .tag-pai e em seguida especificando a tag <p> que é a tag filha da <div> escrevendo então p ficaria assim no final document.querySelector(".tag-pai p"); igual como se fosse um seletor CSS (se for preciso revise conteúdo sobre seletores em/de CSS)
+
+            Com Class é a mesma coisa. É necessário especificar a class pai e a class filha. É procurar por uma class dentro de outra class. Ou seja, primeiro a função encontra a class pai, e em seguida encontra a class dentro dela que foi especificada, essa é a class  filha. A função entra numa class, e estando lá dentro procura pela class especificada. document.querySelector(".tag-pai .tag-filha");
+
+
+
+             document.querySelectorAll encontra e retorna todos os elementos
+       ele retona uma NodeList uma lista de elementos com todos os elementos especificados. 
+    Por exemplo: document.querySelectorAll("div"); deve retornar uma lista com todas as <div> do documento HTML
+    A difireça do NodeList para o HTMLCollection. O HTMLCollection só vai ter elementos HTML, no NodeList a gente pode ter por exemplo um texto que não necessáriamente é um elemento HTML. A lista continua funcionando como um array[].
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
