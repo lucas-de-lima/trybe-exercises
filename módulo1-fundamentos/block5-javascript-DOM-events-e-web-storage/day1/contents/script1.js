@@ -1,0 +1,1 @@
+document.getElementsByClassName("emergency-tasks").innerText = ("color: black;");
