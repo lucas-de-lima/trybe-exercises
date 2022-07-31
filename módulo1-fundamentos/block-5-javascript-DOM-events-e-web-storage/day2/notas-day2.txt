@@ -1,0 +1,80 @@
+    
+
+
+
+                    criando elementos
+    let newDiv = document.createElement('div'); é preciso usar o comando .createElement(''), e declarar o elemento a ser criado dentro das aspas dentro dos parenteses ('div') também é preciso fazer isso dentro de uma variavel let
+
+        appendChild(); é utilizado para anexar uma função na estrutura
+
+ (geralmente vc já criou essa função antes usando document.querySelector('') ou qualquer outro metodo para buscar IDs ou class) e adcicionar um eleemnto (que voce já criou com o document.createElement(''))
+
+por exemplo:
+
+(variavel contendo algo buscado com quarySelector('').appendChild(elemento criado com o document.createElement(''). Ficaria assim
+
+conteiner.appenChild(newDiv);
+conteiner.removeChild(newDiv); para apagar use esse comando .removeChild
+
+
+                para adicionar uma class é preciso usar .ClassName = após dar o nome da variavél. Se as class adicionadas já tiverem sido criadas no CSS antes, o valor/mudança é atribuido automaticamente após salvar.
+Por exemplo:
+            newDiv.className = "class1 class2 class3";
+
+
+
+
+
+            .firstElementChild mostra o primeiro elemento filho da tag pai
+            .firstElementChild.className = 'class 1 class2 class3' usar isso altera o primeiro elemento filho.
+
+
+            .firstElementChild.nextElementSibling pego o elemento irmão, usar novamente o nextElementSibling pega o próximo irmão e assim em diante.
+               
+            .firstChild usar assim trás um nó com vários elementos que podem ser acessados.
+
+            .lastElementChild pego o último elemento filho
+            .lastElementChild.previousElementSibling pega o penultimo elemento filho e assim em diante.
+
+            .lastChild 
+
+            
+            .parentElement acessa o pai através do filho. E é possivel fazer modificações a partir desse comando, como alterar a cor com .style.backgroudColor = 'corAqui'
+
+            
+            .childNodes trás uma lista NodeList com os elementos filhos do elemento pai, vai gerar um array e por meio dos indices é possivel acessalos.
+
+            .children trás uma lista HTMLCollection apenas com o que é elementos sendo mais especifico.
+
+            
+            
+
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
