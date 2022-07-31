@@ -1,3 +1,7 @@
+
+// Faça cinco programas, um para cada operação aritmética básica. 
+// Seu programa deve ter duas constantes, a e b, definidas no começo com os valores que serão operados.
+
 // Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas constantes, a e b, 
 // definidas no começo com os valores que serão operados. Faça programas para:
 
@@ -6,6 +10,7 @@
 // Multiplicação (a * b)
 // Divisão (a / b)
 // Módulo (a % b)
+
 
 const num1 = 17;
 const num2 = 23;
