@@ -23,6 +23,7 @@ let variavel = 1;
 variavel++; aumenta em 1 o valor da variavel
 variavel--; decrementa em 1 o valor da variavel
 
+
 let movie = "avangers"; //string literal 
 tudo que é uma string é uma seguencia de caracteres, números, letras e caracteres especiais (isso se chama de string literal)
 
@@ -167,6 +168,8 @@ Se vários cases implementam a mesma lógica, basta escrever um abaixo do outro 
 
 
 
+
+exercises-4.3
 
 
 
