@@ -21,3 +21,28 @@ console.log(document.getElementById('elementoOndeVoceEsta').previousElementSibli
 console.log(document.getElementById('elementoOndeVoceEsta').nextSibling);
 console.log(document.getElementById('elementoOndeVoceEsta').previousElementSibling.nextElementSibling.nextElementSibling);
 console.log(document.getElementById('pai').children[2]);
+
+// parte 2
+
+// Crie um irmão para elementoOndeVoceEsta.
+// Crie um filho para elementoOndeVoceEsta.
+// Crie um filho para primeiroFilhoDoFilho.
+// A partir desse filho criado, acesse terceiroFilho.
+
+let buscaEle = document.getElementById('pai'); //busca elemento pai em uma variavel
+let adEle = document.createElement('section'); // cria novo elemento em uma variavel
+buscaEle.appendChild(adEle); //insere novo elemento no elemento pai
+
+let buscaEle2 = document.getElementById('elementoOndeVoceEsta'); //busca elemento elementoOndeVoceEsta em uma variavel
+let adEle2 = document.createElement('div');// cria novo elemento em uma variavel
+buscaEle2.appendChild(adEle2);//insere novo elemento no elemento pai elementoOndeVoceEsta
+
+let buscaEle3 = document.getElementById('primeiroFilhoDoFilho'); //busca elemento primeiroFilhoDoFilho em uma variavel
+let adEle3 = document.createElement('div');// cria novo elemento em uma variavel
+buscaEle3.appendChild(adEle3);//insere novo elemento no elemento pai primeiroFilhoDoFilho
+
+// let buscaEle4 = document.getElementById('primeiroFilhoDoFilho')
+console.log(document.getElementById('primeiroFilhoDoFilho'));
+
+let coisaDoida = (document.getElementsByTagName('div'));
+console.log(coisaDoida[1].parentElement.parentElement.childNodes[5]);

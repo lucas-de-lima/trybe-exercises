@@ -14,7 +14,8 @@ por exemplo:
 (variavel contendo algo buscado com quarySelector('').appendChild(elemento criado com o document.createElement(''). Ficaria assim
 
 conteiner.appenChild(newDiv);
-conteiner.removeChild(newDiv); para apagar use esse comando .removeChild
+
+            Para remover conteiner.removeChild(newDiv); para apagar use esse comando .removeChild
 
 
                 para adicionar uma class é preciso usar .ClassName = após dar o nome da variavél. Se as class adicionadas já tiverem sido criadas no CSS antes, o valor/mudança é atribuido automaticamente após salvar.
