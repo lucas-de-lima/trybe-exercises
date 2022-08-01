@@ -1,0 +1,9 @@
+                
+            mesmo sem setitem é possivel acessar o valor após o ponto . e o nome da chave .chave
+
+
+
+                .setItem cria uma chave, valor
+                .getitem recupera uma chave, valor
+                .removeItem remove a chave, valor
+                .clear(); limpa completamente
