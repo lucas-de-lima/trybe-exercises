@@ -4,7 +4,7 @@
 
    através do objeto 'document' é quem vai dar acesso ao DOM
 
-    .inner.HTML retorno todo o texto inclusivo o texto de outras tags
+    .inner.HTML retorno todo o texto inclusive o texto de outras tags
     .inner.Text retona somente o conteúdo e ignora as tags
     .style retona todos os estilos aplicados na tag (o css)
 

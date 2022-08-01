@@ -7,14 +7,15 @@
 
         appendChild(); é utilizado para anexar uma função na estrutura
 
- (geralmente vc já criou essa função antes usando document.querySelector('') ou qualquer outro metodo para buscar IDs ou class) e adcicionar um eleemnto (que voce já criou com o document.createElement(''))
+ (geralmente vc já criou essa função antes usando document.querySelector('') ou qualquer outro metodo para buscar IDs ou class) e adicionou um elemento (que voce já criou com o document.createElement(''))
 
 por exemplo:
 
 (variavel contendo algo buscado com quarySelector('').appendChild(elemento criado com o document.createElement(''). Ficaria assim
 
 conteiner.appenChild(newDiv);
-conteiner.removeChild(newDiv); para apagar use esse comando .removeChild
+
+            Para remover conteiner.removeChild(newDiv); para apagar use esse comando .removeChild
 
 
                 para adicionar uma class é preciso usar .ClassName = após dar o nome da variavél. Se as class adicionadas já tiverem sido criadas no CSS antes, o valor/mudança é atribuido automaticamente após salvar.
@@ -26,14 +27,15 @@ Por exemplo:
 
 
             .firstElementChild mostra o primeiro elemento filho da tag pai
+
             .firstElementChild.className = 'class 1 class2 class3' usar isso altera o primeiro elemento filho.
 
 
-            .firstElementChild.nextElementSibling pego o elemento irmão, usar novamente o nextElementSibling pega o próximo irmão e assim em diante.
+            .firstElementChild.nextElementSibling pega o elemento irmão, usar novamente o nextElementSibling pega o próximo irmão e assim em diante.
                
             .firstChild usar assim trás um nó com vários elementos que podem ser acessados.
 
-            .lastElementChild pego o último elemento filho
+            .lastElementChild pega o último elemento filho
             .lastElementChild.previousElementSibling pega o penultimo elemento filho e assim em diante.
 
             .lastChild 
@@ -49,7 +51,54 @@ Por exemplo:
             
             
 
-               
+               .parentNode mostra o elemento pai do elemento selecionado. Para isso é necessário buscar o elemento através do comando de busca, como, getElement, ou querySelector, após digitar o elemento buscado entre parenteses ('.elemento')nesse exemplo usei um exemplo de elemento .class)) é preciso digitar .parentNode.
+        Exemplo:
+
+                    document.querySelector('.algumaClasse').parentNode
+                isso devera mostrar o elemento pai.
+            repetir esse processo ira mostrar o elemento pai do pai e assim sucessivamente:
+     document.querySelector('.algumaClasse').parentNode.parentNode.parentNode
+
+                esse é uma propriedade apenas para leitura, não é possivel reatribuir o valor dela.
+
+                
+        Há, ao todo, as seguintes propriedades:
+
+        .parentNode: retorna o nó pai.
+        .parentElement: retorna o elemento pai.
+        .childNodes: retorna um NodeList com todos os nós filhos.
+        .children: retorna um HTMLCollection com todos os elementos filhos.
+        .firstChild: retorna o primeiro nó filho.
+        .firstElementChild: retorna o primeiro elemento filho.
+        .lastChild: retorna o último nó filho.
+        .lastElementChild: retorna o último elemento filho.
+        .nextSibling: retorna o próximo nó.
+        .nextElementSibling: retorna o próximo elemento.
+        .previousSibling: retorna o nó anterior.
+        .previousElementSibling: retorna o elemento anterior.
+
+        É importante dizer que, à primeira vista, as propriedades nextSibling e nextElementSibling parecem fazer a mesma coisa, mas uma pega o próximo nó do DOM, enquanto a outra pega o próximo elemento, e nem sempre o próximo nó é um elemento.
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
