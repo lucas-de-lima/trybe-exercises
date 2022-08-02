@@ -57,12 +57,15 @@
   </head>
   <body>
     <script>
-     let pegabody = document.querySelector('body');
+     let getbody = document.querySelector('body');
      let newH1 = document.createElement('h1');
-     console.log(pegabody.appenChild(newH1).innerText = 'Exercício 5.2 - JavaScript DOM');  
+     newH1.innerText = 'Exercício 5.2 - JavaScript DOM';
+     getbody.appendChild(newH1);  
+     getbody.style.backgroundColor = 'blue';
+     
+    //  document.getElementById('bodycolor').style.backgroundColor = 
+        
 
-       console.log(pegabody);
-       console.log(newH1);
       
 
 
