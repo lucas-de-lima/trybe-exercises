@@ -34,6 +34,7 @@ Dessa forma não:
 
                 document.querySelector retorna apenas 1 elemento e o primeiro elemento que for encontrado a partir da chamada dessa função. O seletor de CSS é passado para essa função. para Class .class(ponto antes) para ID #id(hastag antes)
                 Se for usado uma tag como "p" (<p>) ele retona a primeira tag e apenas ela especificamente, que é o primeiro elemento.
+
                 para buscar uma tag especifica no corpo do HTML é preciso especificar onde a função querySelector ira buscar. Para isso é preciso especificar a tag pai e a tag filha. Por exemplo: Quero buscar a tag <p> dentro de uma tag <div> para isso preciso especificar a class em <div class"tag-pai"> escrevendo então .tag-pai e em seguida especificando a tag <p> que é a tag filha da <div> escrevendo então p ficaria assim no final document.querySelector(".tag-pai p"); igual como se fosse um seletor CSS (se for preciso revise conteúdo sobre seletores em/de CSS)
 
             Com Class é a mesma coisa. É necessário especificar a class pai e a class filha. É procurar por uma class dentro de outra class. Ou seja, primeiro a função encontra a class pai, e em seguida encontra a class dentro dela que foi especificada, essa é a class  filha. A função entra numa class, e estando lá dentro procura pela class especificada. document.querySelector(".tag-pai .tag-filha");
@@ -41,7 +42,7 @@ Dessa forma não:
 
 
              document.querySelectorAll encontra e retorna todos os elementos
-       ele retona uma NodeList uma lista de elementos com todos os elementos especificados. 
+       ele retona uma NodeListquery uma lista de elementos com todos os elementos especificados. 
     Por exemplo: document.querySelectorAll("div"); deve retornar uma lista com todas as <div> do documento HTML
     A difireça do NodeList para o HTMLCollection. O HTMLCollection só vai ter elementos HTML, no NodeList a gente pode ter por exemplo um texto que não necessáriamente é um elemento HTML. A lista continua funcionando como um array[].
 
