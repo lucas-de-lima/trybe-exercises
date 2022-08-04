@@ -1,0 +1,88 @@
+
+
+
+                      variaveis também armazenam funções
+
+        window.onload carrega quanta a pagina é carregada, é POSSIVEL USAR ESSE COMANDO PARA CHAMAR A FUNÇÃO window.onload = algumafuncao; isso chama a função quando a página é carregada completamente.(diferente do alert que aparece na tela antes da página ser carregada)
+
+          variavel.addEventListener('evento', function() {
+            comando para a function();            
+}); //encerramento do event listener//
+
+
+
+            event.target // event vai no parametro da function, não precisa se chamar event, mas faz mais sentido por enquanto. O importante é atribuir um nome. Colocando um nome dentro do parametro da function(event) ele ganha o atributo daquele evento, que nesse caso é o evento de clique monitorado pelo addEventListener. Usar um console.log() nesse parametro tras mais informações sobre o evento de clique. O TARGET é uma dessas informações. E mostra em que elemento foi clicado, é possivel rastrear o elemento do clique com precisão. É possivel então usar event.target dentro de um console.log() para ver qual elemento está retornando. Posteriormente é possivel salvar essa informação numa variavel. let clickedElement = event.target;
+
+          variavel.addEventListener('evento', function(event) {
+            comando para a function();
+            let clickedElement = event.target; 
+             console.log(event.target);
+}); //encerramento do event listener//
+
+
+        let value = document.querySelector('.week-days'); //elemento buscado atribuido a uma variavel//
+
+        value.className;//retorna o nome das classes dentro do elemento//
+        value.className = 'NovaClasse' //atribui uma nova classe no elemento, e somente uma.//
+        value.classList.add ('newClass'); //atribui um novo valor de classe ao atributo, pode ser chamado varias vezes com valores diferentes para atribuir mais classes para o elemento//
+
+                    value.classList.add ('p-2');
+                    value.classList.add ('p-3');
+                    value.classList.add ('p-4');
+                    value.classList.add ('p-5');    
+                    <ul class ='week-days p-2 p-3 p-4 p-5'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
