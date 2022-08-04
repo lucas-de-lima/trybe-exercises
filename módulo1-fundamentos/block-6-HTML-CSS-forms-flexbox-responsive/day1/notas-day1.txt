@@ -1,0 +1,71 @@
+        
+
+                Introdução a Formularios
+            
+            tag <form></form> essa é a tag referente a formulario. Tudo dentro dela é a estrutura de um formulário
+            
+               <input type =''> um campo de formulário para entrada de dados
+                    type ='text' digita um texto
+                    name = 'texto(nome)' também é texto
+
+                <button type='submit'>vai um texto, tipo 'enviar'</button>
+
+                <label for ='' </label> // pesquisar
+
+                <textarea name ='' <textarea
+
+//pesquisar://
+<option></option>
+<textarea>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
