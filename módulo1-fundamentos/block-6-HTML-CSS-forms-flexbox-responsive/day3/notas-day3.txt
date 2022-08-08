@@ -1,0 +1,70 @@
+
+
+        main axis = orizontal (mas pode mudar para vertical usando uma propriedade)
+        cross axis = vertical  (mas pode mudar para orizontal usando uma propriedade)
+
+//pesquisar pra estudar://
+        flex-direction
+        flex-wrap
+        flex-flow
+
+        //reverse//
+wrap-reverse
+row-reverse, os itens ficam em linha reversa, o column, onde os itens ficam em uma única coluna, um embaixo do outro, e o column-reverse, em que os itens também ficam um embaixo do outro, porém em ordem reversa.
+
+
+//pesquisar pra estudar://
+justify-content >> flex-start / flex-end / center /  space-between / space-around
+
+align-items >>  stretch /  flex-start / flex-end / center /  baseline /
+
+align-content >> stretch / flex-start / flex-end / center /  space-between / space-around
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
