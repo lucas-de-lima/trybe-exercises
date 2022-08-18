@@ -1,0 +1,11 @@
+
+         JavaScript ES6 - let, const, arrow functions e template literals
+
+parte I - var, let, e const
+
+parte II - templete literals
+
+parte III - arrow function => é possivel colocar o corpo da função depois desse simbulo.
+Quando uma arrow function => recebe um objeto {} é preciso colocar o objeto entre parenteses ({nome: nome, idade: idade});
+
+parte IV - ternary operator
