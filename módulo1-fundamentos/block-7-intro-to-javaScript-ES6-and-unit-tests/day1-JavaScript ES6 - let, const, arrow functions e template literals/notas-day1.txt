@@ -1,0 +1,15 @@
+
+         JavaScript ES6 - let, const, arrow functions e template literals
+
+parte I - var, let, e const
+
+parte II - templete literals usa ``  `alguma coisa` e ${} ${umaVariavel}
+
+parte III - arrow function => é possivel colocar o corpo da função depois desse simbulo.
+Quando uma arrow function => recebe um objeto {} é preciso colocar o objeto entre parenteses ({nome: nome, idade: idade});
+
+parte IV - ternary operator
+Como você pode ver, a sintaxe do operador ternário é bem simples: x ? y : z.
+O x é uma condição que será avaliada como verdadeira ou falsa;
+O y é o retorno se a condição for verdadeira;
+O z é o retorno se a condição for falsa;
