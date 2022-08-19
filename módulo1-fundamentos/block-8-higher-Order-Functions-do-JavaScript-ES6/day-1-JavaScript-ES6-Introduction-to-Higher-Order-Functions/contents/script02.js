@@ -43,8 +43,42 @@
 //   repeat(3, isEven); // Testa quais números serão pares;
 //   repeat(3, isOdd); // Testa quais números serão ímpares;
 
-const numberGenerator = () => {
-    return Math.random() * 100;
-  }
+// const numberGenerator = () => {
+//     return Math.random() * 100;
+//   }
   
-  console.log(numberGenerator);
+//   console.log(numberGenerator);
+
+  //exemplo do vídeo
+
+//   const sum = (num1, num2) => num1 + num2;
+
+//   const sub = (num1, num2) => num1 - num2;
+
+//   const multi = (num1, num2) => num1 * num2;
+
+//   const div = (num1, num2) => num1 / num2;
+
+//   const calculator = (func) => func(10, 5);
+
+//   console.log(calculator(sum));
+//   console.log(calculator(sub));
+//   console.log(calculator(multi));
+//   console.log(calculator(div));
+
+  const acorda = () => `Acordando!!`;
+  const cafe = () => `Bora tomar café!!`;
+  const dormir = () => `Partiu dormir!!`;
+
+  // Ao chamar a função doingThings:
+
+    const doingThings = (eita) => eita()
+    
+    console.log(doingThings(acorda));
+    console.log(doingThings(cafe));
+    console.log(doingThings(dormir));
+
+  // Ela deve retornar o valor do respectivo parâmetro
+    
+
+
