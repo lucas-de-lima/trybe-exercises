@@ -3,7 +3,7 @@
 
 parte I - var, let, e const
 
-parte II - templete literals
+parte II - templete literals usa ``  `alguma coisa` e ${} ${umaVariavel}
 
 parte III - arrow function => é possivel colocar o corpo da função depois desse simbulo.
 Quando uma arrow function => recebe um objeto {} é preciso colocar o objeto entre parenteses ({nome: nome, idade: idade});
