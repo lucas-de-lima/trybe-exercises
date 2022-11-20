@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# steps
+.STEPS.md
+.STEPS.md
+ STEPS.md

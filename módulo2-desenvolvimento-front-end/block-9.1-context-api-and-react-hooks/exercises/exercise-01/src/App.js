@@ -1,25 +1,51 @@
-import logo from './logo.svg';
+import React from 'react'
+import PropTypes from 'prop-types'
 import './App.css';
 
-function App() {
+function App(props) {
+  const {} = props
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <div className='App-header'>
+        <form action="">
+        <div className='form-info'>
+          <label htmlFor="input-name">
+          <input type="text" name="name" placeholder='Seu Nome' id="input-name"/>
+          </label>
+
+          <label htmlFor="">
+          <input type="number" name="age" placeholder='Sua idade' id="input-age"/>
+          </label>
+
+          <label htmlFor="">
+          <input type="text" name="city" placeholder='Sua Cidade' id="input-city"/>
+          </label>
+        </div>
+
+          <div className='radios-btn'>
+            <label htmlFor="option-01">
+              <input type="radio" name="" id="option-01" />Fundamentos
+            </label>
+            <label htmlFor="option-02">
+              <input type="radio" name="" id="option-02" />Front-end
+            </label>
+            <label htmlFor="option-03">
+              <input type="radio" name="" id="option-03" />Back-end
+            </label>
+            <label htmlFor="option-04">
+              <input type="radio" name="" id="option-04" />Ciência da Computação
+            </label>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+App.propTypes = {
+
+}
+
+export default App
