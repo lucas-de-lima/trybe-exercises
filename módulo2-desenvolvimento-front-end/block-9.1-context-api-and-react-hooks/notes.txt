@@ -1,0 +1,46 @@
+
+            hooks
+
+gerenciamento de estado com o Hook useState
+gerenciar o ciclo de vida do componente com o Hook useEffect
+
+Como você deve ter notado, todos os Hooks começam com a palavra use. Isso é importante para diferenciar Hooks de funções comuns.
+
+Da mesma forma que, quando encontramos um componente React com a primeira letra maiúscula (MyComponent) já sabemos que ele irá nos retornar jsx, quando encontramos uma função que começa com use, sabemos que se trata de um Hook. Também é importante para que outras ferramentas auxiliares (por exemplo ESLint) saibam identificar Hooks.
+
+
+Você nunca poderá chamar um Hook dentro de um if. Também não poderá chamá-lo dentro de um loop ou uma função aninhada. Os Hooks precisam ser chamados no top level (raiz) do componente funcional.
+
+Você apenas poderá chamar um Hook dentro de um componente funcional ou dentro de outros Hooks. Você não pode utilizar Hooks em componentes de classe.
+
+
+_________________________________________________________________________________________
+
+
+O useState é o hook mais comum do React, ele permite que você utilize o estado do React em componentes funcionais.
+
+Com o useState, no lugar de termos todos os estados do componente dentro de um grande objeto, podemos ter um useState diferente para cada valor de estado que estiver sendo utilizado.
+
+A atualização do estado ocorre de forma diferente com o this.setState e o useState. No caso das classes, você pode atualizar parcialmente um valor do estado. No Hook, o estado será completamente substituído pelo novo estado. Para entender mais, você pode ler a documentação.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
