@@ -1,33 +1,40 @@
-class Tv {
-    brand: string;
-    size: number;
-    resolution: string;
-    connections: string[];
-    connectedTo?: string;
+export default class Tv {
+  private _brand: string;
+  private _size: number;
+  private _resolution: string;
+  private _connections: string[];
+  private _connectedTo?: string;
 
-    constructor(
+  constructor(
     brand: string,
     size: number,
     resolution: string,
-    connections: string[],
-    ) {
-        this.brand = brand;
-        this.size = size;
-        this.resolution = resolution;
-        this.connections = connections;
-    }
+    connections: string[]
+  ) {
+    this._brand = brand;
+    this._size = size;
+    this._resolution = resolution;
+    this._connections = connections;
+  }
 
-    turnOn(): void {
-        console.log(
-            `TV ${this.brand}, ${this.size}, 
-            resolution: ${this.resolution}, \n\
-            available connections: ${this.connections}`,
-        );
-        
+  turnOn(): void {
+    console.log(
+      `TV ${this._brand}, ${this._size}, 
+            resolution: ${this._resolution}, \n\
+            available connections: ${this._connections}`
+    );
+  }
+
+  get connectedTo(): string | undefined {
+    return this._connectedTo;
+  }
+
+  set connectedTo(value: string | undefined) {
+    if (!value || this._connections.includes(value)) {
+      this._connectedTo = value;
+      console.log(this._connectedTo);
+    } else {
+      console.log("Sorry, connection unavailable!");
     }
+  }
 }
-
-const tv = new Tv('acer', 25, '25 polegadas', 
-['hdmi', 'displayport', 'vga']);
-
-console.log(tv);
