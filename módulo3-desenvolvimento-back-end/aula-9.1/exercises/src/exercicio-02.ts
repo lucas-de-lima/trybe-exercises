@@ -54,7 +54,19 @@ export default class Student {
         this._assignmentsGrades = value;
     };
 
+    sumGrades(): number {
+        return [...this.examsGrades, ...this.assignmentsGrades]
+        .reduce((prevNote, note) => {
+            const nextNote = note + prevNote;
+            return nextNote;
+        });
+    };
 
-
+    sumAverageGrade(): number {
+        const sumGrades = this.sumGrades();
+        const divider = this.examsGrades.length + this.assignmentsGrades.length;
+    
+        return Math.round(sumGrades / divider);
+      };
 
 }

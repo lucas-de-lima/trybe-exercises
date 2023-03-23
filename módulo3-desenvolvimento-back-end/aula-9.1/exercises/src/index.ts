@@ -1,9 +1,10 @@
-import Student from './exercicio-02'
+import Student from "./exercicio-02";
 
 const personOne = new Student('202001011', 'Maria da Silva');
 
+personOne.examsGrades = [25, 20, 23, 23];
+personOne.assignmentsGrades = [45, 45];
+
 console.log(personOne);
-
-const personTwo = new Student('202001012', 'João da Silva');
-
-console.log(personTwo);
+console.log('Soma de todas as notas: ', personOne.sumGrades());
+console.log('Média de todas as notas: ', personOne.sumAverageGrade());
