@@ -1,0 +1,4 @@
+use("aula-filter-operators");
+
+// Remova o primeiro documento da coleção. 
+db.filmes.deleteOne({});

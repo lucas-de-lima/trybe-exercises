@@ -1,0 +1,19 @@
+// Resultados sem o diretor Michael Bay, nem avaliacao.ruim igual a 10
+
+use("aula-filter-operators");
+db.filmes.find({
+  $nor: [{
+    "diretor": "Michael Bay"
+  }, {
+    "avaliacao.ruim": 10
+  }]
+})
+
+// Resultados sem o diretor Michael Bay, nem avaliacao.bom maior que 7
+db.filmes.find({
+  diretor: {
+    $not: {
+      $eq: "Michael Bay"
+    }
+  }
+})

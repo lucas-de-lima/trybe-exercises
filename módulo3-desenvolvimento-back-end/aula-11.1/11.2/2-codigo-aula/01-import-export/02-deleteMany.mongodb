@@ -1,0 +1,14 @@
+// Delete alguns registros
+
+use("aula-filter-operators");
+
+db.filmes.deleteOne({});
+
+use("aula-filter-operators");
+db.filmes.deleteOne({ titulo: "Os Oito Odiados" });
+
+use("aula-filter-operators");
+db.filmes.deleteMany({ "avaliacao.ruim": { $gt:6 }});
+
+use("aula-filter-operators");
+db.filmes.deleteMany({});

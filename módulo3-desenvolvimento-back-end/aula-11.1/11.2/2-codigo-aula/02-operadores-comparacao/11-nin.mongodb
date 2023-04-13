@@ -1,0 +1,8 @@
+// Construa uma query que seleciona todos os documentos
+// em que o valor do campo ano não é igual a 2013 ou 2008.
+// Ou seja, documentos em que o valor do campo ano é
+// diferente de 2013 e de 2008
+
+use("aula-filter-operators");
+
+db.filmes.find({ ano: { $nin: [2013, 2008] } });

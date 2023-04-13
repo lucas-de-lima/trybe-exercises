@@ -1,0 +1,4 @@
+// Trazer os filmes onde o ano é 2014 
+// e `avaliacao.ruim` **não** esteja entre 5 e 10.
+
+use("aula-filter-operators");

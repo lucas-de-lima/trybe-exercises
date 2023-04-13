@@ -1,0 +1,5 @@
+// 1 - Ordenar por diretor e título em ordem alfabética,
+// ano em forma decrescente, `avaliacao.bom` em order decrescente.
+// (Esconder `avaliacao.ruim` e `avaliacao.medio`)
+
+use("aula-filter-operators");

@@ -1,0 +1,5 @@
+// Em seguida remova o primeiro documento em que o valor do
+// campo titulo é igual a "Os Oito Odiados"
+use("aula-filter-operators");
+
+db.filmes.deleteOne({ titulo: "Os Oito Odiados" });

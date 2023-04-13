@@ -1,0 +1,35 @@
+// Construa uma query que seleciona todos os documentos
+// em que o valor do campo ano seja maior que 2000
+// e o campo bom de avaliação seja maior ou igual a 8.
+
+use("aula-filter-operators");
+
+db.filmes.find({
+  $and: [{
+    "ano": {
+      $gt: 2000
+    }
+  }, {
+    "avaliacao.bom": {
+      $gte: 8
+    }
+  }]
+});
+
+
+// Construa uma query que seleciona todos os documentos em que 
+// o valor do campo ano seja maior que 2000 ou
+// o campo bom de avaliação seja maior ou igual a 8
+use("aula-filter-operators");
+
+db.filmes.find({
+  $or: [{
+    "ano": {
+      $gt: 2000
+    }
+  }, {
+    "avaliacao.bom": {
+      $gte: 8
+    }
+  }]
+});
