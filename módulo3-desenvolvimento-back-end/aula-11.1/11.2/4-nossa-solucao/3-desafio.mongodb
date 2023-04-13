@@ -1,0 +1,4 @@
+// Trazer os filmes onde o diretor é Quentin Tarantino
+// OU avalicao.bom esteja entre 5 e 10.
+
+use("aula-filter-operators");

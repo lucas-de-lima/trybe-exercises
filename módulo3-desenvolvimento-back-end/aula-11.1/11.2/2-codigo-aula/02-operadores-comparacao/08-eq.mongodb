@@ -1,0 +1,12 @@
+// Selecione todos os documentos da coleção filmes
+// em que o valor do campo ano seja igual a 1993
+
+use("aula-filter-operators");
+
+db.filmes.find({ ano: { $eq: 1993 } });
+db.filmes.find({ ano: 1993 });
+
+// Selecione todos os documentos da coleção filmes em que o campo
+// avaliacao do sub-documento bom é igual a 7
+db.filmes.find({ "avaliacao.bom": { $eq: 7 } });
+db.filmes.find({ "avaliacao.bom": 7 });

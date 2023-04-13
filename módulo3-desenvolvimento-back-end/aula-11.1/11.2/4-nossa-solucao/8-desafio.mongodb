@@ -1,0 +1,5 @@
+// Filtre os filmes do `Steven Spielberg` que nem o nome seja 
+// `Indiana Jones e a Última Cruzada` nem o ano seja 1989. 
+// (Usando o operador $nor)
+
+use("aula-filter-operators");

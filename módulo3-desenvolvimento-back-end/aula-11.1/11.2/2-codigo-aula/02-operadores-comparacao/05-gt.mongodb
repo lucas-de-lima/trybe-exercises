@@ -1,0 +1,6 @@
+
+// Monte uma query que retorne todos os documentos da coleção
+// filmes em que o campo ano seja MAIOR que 1993
+
+use("aula-filter-operators");
+db.filmes.find({ ano: { $gt: 1993 } });

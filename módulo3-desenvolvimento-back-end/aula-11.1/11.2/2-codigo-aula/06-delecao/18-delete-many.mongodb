@@ -1,0 +1,9 @@
+
+// Remova todos os documentos em que o valor do campo
+// avaliacao.ruim seja igual a 6. 
+
+use("aula-filter-operators");
+// db.filmes.deleteMany({});
+// db.filmes.find();
+
+db.filmes.deleteMany({ "avaliacao.ruim": { $gt:6 }});

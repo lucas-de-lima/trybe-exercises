@@ -1,0 +1,5 @@
+// Monte uma query que retorne todos os documentos
+// da coleção filmes em que o campo ano seja menor ou igual a 2000
+
+use("aula-filter-operators");
+db.filmes.find({ ano: { $lte: 2000 } });

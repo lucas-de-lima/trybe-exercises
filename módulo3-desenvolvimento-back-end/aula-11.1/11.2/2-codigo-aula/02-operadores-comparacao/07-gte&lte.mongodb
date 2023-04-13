@@ -1,0 +1,8 @@
+// Retorne os documentos em que o valor do campo ano
+// é MAIOR ou IGUAL a ($gte) 1993 e MENOR ou IGUAL a ($lte) 2000, 
+// ou seja, retorna documentos em que o ano está entre 1993 e 2000
+
+use("aula-filter-operators");
+db.filmes.find(
+    { ano: { $gte: 1993, $lte: 2000 } }
+)

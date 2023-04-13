@@ -1,0 +1,6 @@
+use("aula-filter-operators");
+
+// Depreciado
+// db.filmes.count();
+
+db.filmes.countDocuments();
